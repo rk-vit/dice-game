@@ -6,13 +6,13 @@ var pict_2 = document.querySelector(".img2");
 pict_1.setAttribute("src",list_dicee[random_number_1]);
 pict_2.setAttribute("src",list_dicee[random_number_2]);
 if(random_number_1>random_number_2){
-    document.querySelector("h1").innerHTML="🚩First player wins"
-    document.querySelector("h1").style.fontSize="100 px"
+    document.querySelector("h1").innerHTML="🚩First player wins";
+    document.querySelector("h1").style.fontSize="100 px";
 }
 if(random_number_2>random_number_1){
-    document.querySelector("h1").innerHTML="Second player wins🚩"
-}   document.querySelector("h1").style.fontSize="100px"
+    document.querySelector("h1").innerHTML="Second player wins🚩";
+}   document.querySelector("h1").style.fontSize="100px";
 if(random_number_1==random_number_2){
-    document.querySelector("h1").innerHTML="🚩Draw🚩"
-    document.querySelector("h1").style.fontSize="100 px"
+    document.querySelector("h1").innerHTML="🚩Draw🚩";
+    document.querySelector("h1").style.fontSize="100 px";
 }
